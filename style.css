@@ -1,0 +1,80 @@
+.one{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+.container{
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    gap: 10px;
+    margin: auto;
+   
+}
+
+.two,.three,.four,.five{
+     border: solid black 2px;
+
+}  
+.two p, .three p, .four p,.five p{
+    margin: 2px;
+}
+.two h1, .three h1,.four h1, .five h1{
+    margin: 2px;
+}
+
+.two__img,.three__img,.four__img,.five__img{
+    height:250px;
+    width:250px;
+    display: block;
+    margin-bottom:10px;
+    text-align: center;
+    margin-bottom: 5px;
+   
+
+}
+.two__command,.three__command,.four__command,.five__command{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.six{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+.six label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.six input {
+  height: 40px;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto 10px;
+  padding: 3px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+}
+.six h1{
+    margin-bottom: 5px;
+}
+
+.six__button{
+    background-color: yellow;
+    color: black;
+    width: 600px;
+    text-align: center;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
